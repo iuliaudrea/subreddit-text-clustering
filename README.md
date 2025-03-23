@@ -20,11 +20,6 @@ In all methods, the best Silhouette Score was achieved with 4 clusters—matchin
 
 TF-IDF with UMAP consistently outperformed Word2Vec in clustering metrics, although both achieved strong classification accuracy. Silhouette Score did not always correlate with accuracy, highlighting the complexity of text data.
 
-## Notebooks
-- `tfidf_all_methods.ipynb`: Complete pipeline using TF-IDF + UMAP
-- `word2vec_clustering.ipynb`: Clustering using Word2Vec representations
-- `word2vec_training.ipynb`: Training the Word2Vec model
-
 ## Documentation
 Detailed analysis with visuals, confusion matrices, and performance tables is available in the [PDF documentation](subreddit_clustering_doc.pdf).
 
